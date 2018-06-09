@@ -6,7 +6,6 @@
   handleChange: (e) ->
     name = e.target.name
     @setState "#{name}": e.target.value
-    console.log @state
 
   valid: ->
     if @state.title && @state.date && @state.amount
